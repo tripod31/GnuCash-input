@@ -36,3 +36,6 @@ positional arguments:
 optional arguments:
   -h, --help      show this help message and exit
 ```
+
+## Excelファイルイメージ
+![gnucash-input](https://user-images.githubusercontent.com/6335693/152723968-307a9e9e-4d2f-44a9-8fff-d052e8cb8b2d.png)
