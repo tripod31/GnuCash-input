@@ -7,9 +7,9 @@ GnuCashは、フリーの会計ソフトです。
 * GnuCash4.9
 
 ## 取引の入力手順 
-1. GnuCashへの取引の入力を独自の振替伝票形式のexcelファイルで行う 
-2. pythonでgnucashのエクスポート形式CSVに変換
-3. できたCSVファイルをGnuCashにインポート
+1. Excelで取引を振替伝票形式(独自形式）のexcelファイルへ入力 
+2. pythonでExcelファイルをGnuCashのエクスポート形式CSVに変換
+3. GnucashでCSVファイルをインポート
 
 ## excelファイル
 サンプルはinput.xlsxです。各列は以下の通り  
@@ -36,6 +36,9 @@ positional arguments:
 optional arguments:
   -h, --help      show this help message and exit
 ```
-
+例：  
+```
+>python input2gnucash.py input.xslx gnucash-input.xslx gnucash-input.csv
+```
 ## Excelファイルイメージ
 ![gnucash-input](https://user-images.githubusercontent.com/6335693/152723968-307a9e9e-4d2f-44a9-8fff-d052e8cb8b2d.png)
