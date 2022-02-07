@@ -1,6 +1,6 @@
 # gnucash-input
 GnuCashの取引データをexcelで入力するために作成しました。GnuCashの取引入力が面倒なためです。  
-GnuCashは、フリーの会計ソフトです。
+GnuCashは、フリーの会計ソフトです。https://www.gnucash.org/
 
 ## 動作確認環境
 * Windows11
